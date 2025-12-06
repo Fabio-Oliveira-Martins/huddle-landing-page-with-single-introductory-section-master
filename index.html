@@ -1,33 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="src/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <script src="src/scripts/app.js" defer></script>
 </head>
 <body>
 
-  Build The Community Your Fans Will Love
+  <header>
+    <img class="logo" src="src/assets/images/logo.svg" alt="Huddle">
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="hero__img-container">
+        <img class="hero__img" src="src/assets/images/illustration-mockups.svg" alt="Imagem ilustrativa">
+      </div>
+    </section>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
+    <section class="cta-sc">
+      <div class="cta-sc__container">
+        <h1 class="cta-sc__title">
+          Build The Community <br> 
+          Your Fans Will Love
+        </h1>
+        <p class="cta-sc__info">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.
+        </p>
+        <button class="cta-sc__btn">
+          Register
+        </button>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <ul class="social-media">
+      <li class="social-media__item">
+        <a href="#" class="social-media__link social-media__link--facebook" aria-label="Visit our Facebook page">
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li class="social-media__item">
+        <a href="#" class="social-media__link social-media__link--github" aria-label="Visit our Github repository">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li class="social-media__item">
+        <a href="#" class="social-media__link social-media__link--instagram" aria-label="Visit our Instagram page">
+         <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+
+    <div class="attribution-container">
+      <p class="attribution">
+        Challenge by <strong><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</strong>
+        Coded by <strong><a href="https://www.github.com/fabio-oliveira-martins" target="_blank">Fábio O. Martins</a>.</strong>
+      </p>
+    </div>
   </footer>
 </body>
 </html>
