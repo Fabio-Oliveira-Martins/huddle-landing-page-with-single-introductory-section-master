@@ -27,7 +27,7 @@ Este projeto é uma Landing Page de página única desenvolvida para apresentar 
 Copie e cole o link abaixo na barra de pesquisa do seu navegador:
 
 ```
-
+https://fabio-oliveira-martins.github.io/huddle-landing-page-with-single-introductory-section-master/
 ```
 ## Desenvolvimento
 
@@ -46,7 +46,7 @@ Copie e cole o link abaixo na barra de pesquisa do seu navegador:
 ## Autor
 
 - Github: <a href="https://www.github.com/Fabio-Oliveira-Martins" target="_blank" rel="noopener noreferrer">Fabio-Oliveira-Martins</a>
-- Frontend Mentor: <a href="#" target="_blank" rel="noopener noreferrer">@Fabio-Oliveira-Martins</a>
+- Frontend Mentor: <a href="https://www.frontendmentor.io/profile/Fabio-Oliveira-Martins" target="_blank" rel="noopener noreferrer">@Fabio-Oliveira-Martins</a>
 
 
 ## Licença
